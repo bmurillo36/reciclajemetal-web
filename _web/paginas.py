@@ -951,10 +951,15 @@ def tarjeta():
       <p>Nosotros impartimos el <strong>reciclaje de 4 horas</strong>. Si lo
       que necesitas es otra de estas formaciones, llámanos al %(tel)s y te
       decimos si la damos o dónde mirarla. En
-      <a href="https://tpcmetal.es" rel="noopener">tpcmetal.es</a> tienes el
+      <a href="https://www.tpcmetal.es/" rel="noopener">tpcmetal.es</a> tienes el
       resto de la formación del metal del centro, y en
-      <a href="https://prevencionmadrid.es" rel="noopener">prevencionmadrid.es</a>,
-      toda su oferta de prevención de riesgos laborales.</p>
+      <a href="https://www.prevencionmadrid.es/tarjeta-profesional-de-la-construcci%C3%B3n-tpc/"
+      rel="noopener">prevencionmadrid.es</a>, toda su oferta de prevención de
+      riesgos laborales.</p>
+      <p>Y si lo que te toca es la <strong>construcción</strong> y no el metal,
+      la renovación de esa tarjeta se explica entera en
+      <a href="https://renovartpc.es/renovar-la-tpc/" rel="noopener">renovartpc.es</a>:
+      son dos convenios distintos y se confunden mucho.</p>
     </div>
     %(botonera)s
   </div>
