@@ -953,7 +953,7 @@ def tarjeta():
       decimos si la damos o dónde mirarla. En
       <a href="https://www.tpcmetal.es/" rel="noopener">tpcmetal.es</a> tienes el
       resto de la formación del metal del centro, y en
-      <a href="https://www.prevencionmadrid.es/tarjeta-profesional-de-la-construcci%C3%B3n-tpc/"
+      <a href="https://www.prevencionmadrid.es/tarjeta-profesional-de-la-construcci%%C3%%B3n-tpc/"
       rel="noopener">prevencionmadrid.es</a>, toda su oferta de prevención de
       riesgos laborales.</p>
       <p>Y si lo que te toca es la <strong>construcción</strong> y no el metal,
