@@ -45,10 +45,11 @@ tensión**. De los otros doce se publica el **esquema** que comparten los tres,
 dicho como esquema, y se invita a pedir el temario exacto. Inventarlo sería la
 forma más rápida de que alguien venga con el curso equivocado.
 
-**No hay contenedor de Tag Manager.** `reciclajemetal.es` no está en la tabla
-de contenedores de la gestora (dlega). El enganche está escrito y probado en
-`web.js`: cuando Ana diga cuál es, se escribe en `centro.py › GTM` y funciona
-sin tocar nada más. `_web/auditar.py` se pone rojo si alguien mete uno a mano
+**Contenedor de Tag Manager: GTM-56SQ9M6R** (lo creó Ana, de Dlega, el
+23/09/2026; puesto el 24/09/2026 en `centro.py › GTM`, commit `dbf8cc6`). Va
+como `data-gtm` en el `<html>` y `web.js` lo lee de ahí. Las etiquetas las pone
+Ana; la propiedad de Analytics es **G-JWWXHLFPJV** (cuenta «Webs Pedro Rubio –
+Siglo 21»). `_web/auditar.py` se pone rojo si alguien mete uno a mano
 en el HTML o si la medición se carga sin consentimiento.
 
 ## Lo que sí está verificado
