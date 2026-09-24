@@ -50,7 +50,7 @@ FORMULARIO = "https://formularios.tpcmetal.es/enviar/reciclajemetal"
 # --- La medicion -----------------------------------------------------------
 # VACIO A PROPOSITO: reciclajemetal.es no esta en la tabla de contenedores de
 # la gestora. El contenedor lo da Ana, no se inventa.
-GTM = ""
+GTM = "GTM-56SQ9M6R"
 
 # --- El curso --------------------------------------------------------------
 # Precio y modalidad: los dicto Pedro el 16/09/2026 (70 EUR, presencial en
