@@ -124,8 +124,9 @@ protección colectiva e individual).
 
 ## Horario de oficina
 
-- Lunes a jueves: de 8 horas a 18 horas
-- Viernes: de 8 horas a 15 horas
+- Lunes a jueves: de 8:00 a 18:00
+- Viernes: de 8:00 a 15:00
+- En julio y agosto: de 8:00 a 15:00
 - Sábados y domingos: cerrado
 
 Los días que hay formación por la tarde —de 14 a 21 o de 15 a 22 horas— las aulas se quedan abiertas hasta esa hora.
