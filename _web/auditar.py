@@ -190,6 +190,16 @@ def parte_a():
         if SITIO + url not in sm:
             mal("falta en el sitemap", url)
 
+    # 04/10/2026, Pedro: el nivel inicial de 8 h del metal ya no es válido.
+    # ROJO si un párrafo, punto o fila lo nombra sin la nota y sin enlace al de 20 h.
+    for url, h in paginas_html.items():
+        cuerpo = re.sub(r"<script\b.*?</script>|<head>.*?</head>", "", h, flags=re.S)
+        for trozo in re.findall(r"<(?:p|li|tr)\b.*?</(?:p|li|tr)>", cuerpo, flags=re.S):
+            if re.search(r"(?i)nivel inicial|\b8 horas\b(?! o más)", trozo) and not (
+                    "ya no es válido" in trozo.lower() and "#curso-20h" in trozo):
+                mal("el curso de 8 h sale sin la nota «ya no es válido… curso de 20 horas»",
+                    "%s: %s" % (url, re.sub(r"<[^>]+>|\s+", " ", trozo)[:100]))
+
     print("   %d páginas revisadas" % len(paginas_html))
 
 

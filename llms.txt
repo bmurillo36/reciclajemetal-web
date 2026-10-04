@@ -46,13 +46,16 @@
 - **Caduca a los cinco años de su emisión** (artículo 5 de su reglamento) y se
   renueva **por el mismo procedimiento que la solicitud inicial**.
 - Para **obtener** la tarjeta se exige al menos una acción formativa de **8
-  horas o más**. El reciclaje de 4 horas, por sí solo, no da la tarjeta.
+  horas o más**; el nivel inicial (8 horas) ya no es válido para la TPC: hay
+  que realizar el [curso de 20 horas](https://www.tpcmetal.es/#curso-20h). El reciclaje de 4 horas, por sí solo, no da la
+  tarjeta.
 - FMF: C/ Rivas 25, Polígono Industrial Vicálvaro, 28052 Madrid, teléfono
   911770131. Teléfono gratuito del portal oficial: 900 11 21 21.
 
 ## El catálogo del metal, en horas
 
-- Nivel inicial: 8 horas.
+- Nivel inicial (8 horas): ya no es válido para la TPC; hay que realizar el
+  [curso de 20 horas](https://www.tpcmetal.es/#curso-20h).
 - Nivel básico de prevención: 60 horas.
 - Cursos de oficio: 12 cursos de 20 horas.
 - Formación polivalente: 6 horas (exige haber hecho antes los 20 horas de un
@@ -136,7 +139,7 @@ Los días que hay formación por la tarde —de 14 a 21 o de 15 a 22 horas— la
 - **¿Qué es exactamente el reciclaje de la formación del metal?** Es una acción formativa de 4 horas del catálogo de formación del sector del metal. Está en la sección «Formación de Reciclaje» de ese catálogo, amparada por el Anexo IV del IV Convenio colectivo estatal de la industria, las nuevas tecnologías y los servicios del sector del metal. Sirve para actualizar la formación preventiva del oficio que ya hiciste en su día.
 - **¿Cuánto cuesta y cuánto dura?** 70 € el curso completo y 4 horas de duración. Es presencial, en nuestro centro de Móstoles. En el precio entra el material y el título; no hay matrícula ni extras.
 - **¿Cada cuánto hay que hacer el reciclaje?** Depende de lo que te pidan tu empresa o la obra. El portal oficial de la Tarjeta Profesional de la Construcción no publica una periodicidad para el reciclaje del metal, así que no te vamos a dar una cifra que no podamos respaldar. Lo que sí tiene fecha es la tarjeta: caduca a los cinco años de su emisión. Si a ti te han dado un plazo por escrito, tráelo y lo cuadramos contigo.
-- **¿El curso de 4 horas me da la tarjeta del metal?** No por sí solo. Para obtener la Tarjeta Profesional de la Construcción del sector del metal se exige al menos una acción formativa de 8 horas o más. El reciclaje de 4 horas es formación de actualización, no la vía para conseguir la tarjeta. Además, la tarjeta no la emite el centro: la emite la Fundación del Metal para la Formación, Cualificación y el Empleo.
+- **¿El curso de 4 horas me da la tarjeta del metal?** No por sí solo. Para obtener la Tarjeta Profesional de la Construcción del sector del metal se exige al menos una acción formativa de 8 horas o más; el nivel inicial (8 horas) ya no es válido para la TPC: hay que realizar el curso de 20 horas. El reciclaje de 4 horas es formación de actualización, no la vía para conseguir la tarjeta. Además, la tarjeta no la emite el centro: la emite la Fundación del Metal para la Formación, Cualificación y el Empleo.
 - **¿Quién tiene que hacer esta formación?** Los trabajadores de las empresas del ámbito del Acuerdo Estatal del Sector del Metal que realizan sus trabajos en obras de construcción. Si tu empresa es del metal y entras en obra, te afecta.
 - **¿Qué oficios tienen curso de reciclaje?** Quince, todos de 4 horas: administrativos; electricidad de alta y baja tensión; ferrallado; fontanería y climatización; instalación de ascensores; instalaciones, reparaciones, montajes, estructuras metálicas, cerrajería y carpintería metálica; mandos intermedios; mantenimiento de maquinaria y vehículos; operadores de aparatos elevadores; operadores de equipos manuales; responsables y técnicos de ejecución de la actividad; vías férreas; equipos contraincendios; telecomunicaciones; y gasoductos y redes de distribución de gases combustibles.
 - **¿Se puede hacer online?** No. Este curso lo damos presencial, en nuestra aula de Móstoles. Son cuatro horas y se hacen aquí.

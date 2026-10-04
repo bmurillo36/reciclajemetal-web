@@ -128,3 +128,11 @@ Los campos son **siete y con inicial mayúscula**: `Nombre`, `Email`,
 `Telefono`, `Curso`, `Mensaje`, `Acepto`, `Origen`. Con otro nombre no es que
 lleguen mal: **no llegan**. El desplegable del oficio va dentro de `Curso`
 porque es uno de esos siete.
+
+## 04/10/2026 — el nivel inicial de 8 horas del metal YA NO ES VÁLIDO
+
+Pedro: «del metal tampoco es válido el de 8 horas». Donde se nombra (tabla del catálogo y entradilla de
+`/tarjeta-profesional-metal/`, la pregunta «¿El curso de 4 horas me da la tarjeta del metal?» y
+`llms.txt`) va la nota «ya no es válido para la TPC; hay que realizar el curso de 20 horas», con enlace a
+`https://www.tpcmetal.es/#curso-20h` (esta web no tiene curso de 20 h). El JSON-LD y el `llms.txt` de las
+preguntas van sin etiquetas. `auditar.py` se pone ROJO si vuelve el 8 h sin la nota.

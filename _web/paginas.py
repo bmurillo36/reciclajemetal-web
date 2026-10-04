@@ -26,6 +26,7 @@ REGLA AL ESCRIBIR AQUÍ: NI UN DATO INVENTADO.
 """
 
 import json
+import re
 
 from centro import (SITIO, CENTRO, TEL_E164, CURSO, HORARIO, HORARIO_NOTA,
                     FORMULARIO, WASAP, WASAP_TEXTO, MAPA)
@@ -172,7 +173,8 @@ PREGUNTAS = [
     ("¿El curso de 4 horas me da la tarjeta del metal?",
      "No por sí solo. Para obtener la Tarjeta Profesional de la Construcción "
      "del sector del metal se exige al menos una acción formativa de 8 horas o "
-     "más. El reciclaje de 4 horas es formación de actualización, no la vía "
+     "más; el nivel inicial (8 horas) ya no es válido para la TPC: hay que "
+     "realizar el <a href=\"https://www.tpcmetal.es/#curso-20h\">curso de 20 horas</a>. El reciclaje de 4 horas es formación de actualización, no la vía "
      "para conseguir la tarjeta. Además, la tarjeta no la emite el centro: la "
      "emite la Fundación del Metal para la Formación, Cualificación y el "
      "Empleo."),
@@ -927,13 +929,16 @@ def tarjeta():
       <h2>Qué formación pide la tarjeta del metal</h2>
       <p class="entradilla">Para obtener la tarjeta se exige al menos una
       acción formativa de <strong>8 horas o más</strong>. Un curso de cuatro
-      horas, por sí solo, no da la tarjeta: es formación de actualización.</p>
+      horas, por sí solo, no da la tarjeta: es formación de actualización. El
+      nivel inicial (8 horas) ya no es válido para la TPC; hay que realizar el
+      <a href="https://www.tpcmetal.es/#curso-20h">curso de 20 horas</a>.</p>
     </div>
     <div class="tabla-envoltorio">
       <table>
         <thead><tr><th>Formación del catálogo del metal</th><th>Duración</th></tr></thead>
         <tbody>
-          <tr><td>Nivel inicial</td><td>8 horas</td></tr>
+          <tr><td>Nivel inicial (8 horas)</td><td>Ya no es válido para la TPC; hay que
+              realizar el <a href="https://www.tpcmetal.es/#curso-20h">curso de 20 horas</a></td></tr>
           <tr><td>Nivel básico de prevención</td><td>60 horas</td></tr>
           <tr><td>Cursos de oficio (son 12)</td><td>20 horas cada uno</td></tr>
           <tr><td>Formación polivalente</td><td>6 horas</td></tr>
@@ -987,7 +992,7 @@ def preguntas():
         "@type": "FAQPage",
         "mainEntity": [
             {"@type": "Question", "name": p,
-             "acceptedAnswer": {"@type": "Answer", "text": r}}
+             "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", r)}}
             for p, r in PREGUNTAS],
     }
 
@@ -1311,6 +1316,7 @@ def llms():
     Lleva a propósito el apartado «Lo que esta web NO afirma»: si no se dice,
     los modelos rellenan el hueco ellos solos y se inventan la periodicidad."""
     preg = "\n".join("- **%s** %s" % (p, r) for p, r in PREGUNTAS)
+    preg = re.sub(r"<[^>]+>", "", preg)  # 04/10/2026: el enlace del 8 h, sin HTML
     temarios = "\n\n".join(
         "### %s\n\n%s" % (t, "\n".join("- " + x for x in puntos))
         for t, _a, puntos in TEMARIOS)
@@ -1362,13 +1368,16 @@ def llms():
 - **Caduca a los cinco años de su emisión** (artículo 5 de su reglamento) y se
   renueva **por el mismo procedimiento que la solicitud inicial**.
 - Para **obtener** la tarjeta se exige al menos una acción formativa de **8
-  horas o más**. El reciclaje de 4 horas, por sí solo, no da la tarjeta.
+  horas o más**; el nivel inicial (8 horas) ya no es válido para la TPC: hay
+  que realizar el [curso de 20 horas](https://www.tpcmetal.es/#curso-20h). El reciclaje de 4 horas, por sí solo, no da la
+  tarjeta.
 - FMF: C/ Rivas 25, Polígono Industrial Vicálvaro, 28052 Madrid, teléfono
   911770131. Teléfono gratuito del portal oficial: 900 11 21 21.
 
 ## El catálogo del metal, en horas
 
-- Nivel inicial: 8 horas.
+- Nivel inicial (8 horas): ya no es válido para la TPC; hay que realizar el
+  [curso de 20 horas](https://www.tpcmetal.es/#curso-20h).
 - Nivel básico de prevención: 60 horas.
 - Cursos de oficio: 12 cursos de 20 horas.
 - Formación polivalente: 6 horas (exige haber hecho antes los 20 horas de un
