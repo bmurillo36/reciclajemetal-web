@@ -24,4 +24,12 @@ html.bm-con-A body{padding-bottom:64px!important}
 #bm.bm-D .bm-l svg{width:16px;height:16px}
 #bm.bm-D .bm-w svg{width:18px;height:18px}
 html.bm-con-D{padding-top:52px!important}
+#bm.bm-A.bm-2 .bm-b{font-size:14px;gap:6px}
+#bm.bm-A.bm-2 .bm-b svg{width:18px;height:18px}
+#bm.bm-A.bm-2 .bm-l+.bm-l{border-left:1px solid rgba(255,255,255,.35)}
+#bm.bm-B.bm-2 .bm-b{font-size:15px}
+#bm.bm-B.bm-2 .bm-w{grid-column:1/-1}
+#bm.bm-C.bm-2 .bm-l{flex-direction:column;gap:1px}
+#bm.bm-C.bm-2 .bm-l svg{width:20px;height:20px}
+#bm.bm-C.bm-2 .bm-l small{font-size:11px;font-weight:700;opacity:1}
 }

@@ -116,7 +116,7 @@ PLANTILLA = """<!doctype html>
 <meta name="twitter:card" content="summary">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>{css}</style>
-<link rel="stylesheet" href="/botones-movil.css?v=20261105b"><script src="/botones-movil.js?v=20261105b" defer></script>
+<link rel="stylesheet" href="/botones-movil.css?v=20261106d"><script src="/botones-movil.js?v=20261106d" defer></script>
 {extra}</head>
 <body>
 <a class="saltar" href="#principal">Saltar al contenido</a>
