@@ -1,4 +1,5 @@
-/* Botones Llamar y WhatsApp en el movil (Pedro 05/11/2026), lo pinta botones-movil.js. En PC no se ven. */
+/* Botones Llamar y WhatsApp en el movil (Pedro 05/11/2026), lo pinta botones-movil.js. En PC no se ven.
+   v e (06/11/2026): todas las webs con los flotantes (C); bm-izq = al lado izquierdo, junto al Joinchat de la web. */
 #bm{display:none}
 @media (max-width:820px){
 #bm .bm-b{display:flex;align-items:center;justify-content:center;gap:8px;font:700 16px/1.1 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#fff!important;text-decoration:none!important;letter-spacing:.2px;box-sizing:border-box}
@@ -6,30 +7,12 @@
 #bm .bm-l{background:#0b57d0!important}
 #bm .bm-w{background:#1fa855!important}
 #bm .bm-b small{display:block;font-weight:500;font-size:12px;opacity:.9}
-#bm.bm-A{position:fixed;left:0;right:0;bottom:0;z-index:2147483000;display:flex;height:64px;box-shadow:0 -4px 16px rgba(0,0,0,.25)}
-#bm.bm-A .bm-b{flex:1}
-html.bm-con-A body{padding-bottom:64px!important}
-#bm.bm-B{position:relative;z-index:50;display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 14px 18px}
-#bm.bm-B .bm-b{height:58px;border-radius:14px}
-#bm.bm-B .bm-l{box-shadow:0 6px 18px rgba(11,87,208,.35)}
-#bm.bm-B .bm-w{box-shadow:0 6px 18px rgba(31,168,85,.35)}
-#bm.bm-B .bm-n{grid-column:1/-1;text-align:center;font:600 13px system-ui,sans-serif;opacity:.85}
 #bm.bm-C{position:fixed;right:16px;bottom:18px;z-index:2147483000;display:flex;flex-direction:column;gap:12px}
 #bm.bm-C .bm-b{width:60px;height:60px;border-radius:50%;box-shadow:0 6px 18px rgba(0,0,0,.3)}
 #bm.bm-C .bm-w svg{width:30px;height:30px}
 #bm.bm-C .bm-l svg{width:26px;height:26px}
-#bm.bm-D{position:fixed;left:0;right:0;top:0;z-index:2147483000;display:flex;align-items:center;gap:8px;height:52px;padding:0 10px;background:#0f172a;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.3);box-sizing:border-box}
-#bm.bm-D .bm-n{flex:1;font:700 15px system-ui,sans-serif;white-space:nowrap;color:#fff}
-#bm.bm-D .bm-b{height:36px;padding:0 12px;border-radius:18px;font-size:14px}
-#bm.bm-D .bm-l svg{width:16px;height:16px}
-#bm.bm-D .bm-w svg{width:18px;height:18px}
-html.bm-con-D{padding-top:52px!important}
-#bm.bm-A.bm-2 .bm-b{font-size:14px;gap:6px}
-#bm.bm-A.bm-2 .bm-b svg{width:18px;height:18px}
-#bm.bm-A.bm-2 .bm-l+.bm-l{border-left:1px solid rgba(255,255,255,.35)}
-#bm.bm-B.bm-2 .bm-b{font-size:15px}
-#bm.bm-B.bm-2 .bm-w{grid-column:1/-1}
 #bm.bm-C.bm-2 .bm-l{flex-direction:column;gap:1px}
 #bm.bm-C.bm-2 .bm-l svg{width:20px;height:20px}
+#bm.bm-C.bm-izq{right:auto;left:16px}
 #bm.bm-C.bm-2 .bm-l small{font-size:11px;font-weight:700;opacity:1}
 }
